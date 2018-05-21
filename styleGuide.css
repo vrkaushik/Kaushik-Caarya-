@@ -1,0 +1,35 @@
+.primaryBColor{
+  background-color:#2099f0;
+}
+
+.secondaryBColor{
+  background-color: #22577d;
+}
+
+.primaryTColor{
+  color:#22577d;
+}
+
+.secondaryTColor{
+  color: #22577d;
+}
+
+.font16{
+  font-size: 16px;
+}
+
+.font18{
+  font-size: 18px;
+}
+
+.font20{
+  font-size: 20px;
+}
+
+.font22{
+  font-size: 22px;
+}
+
+.font30{
+  font-size: 30px;
+}

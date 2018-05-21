@@ -1,0 +1,304 @@
+
+
+.navbar{
+  border-radius: 0px;
+  /*background-color: #2099f0;*/
+  border: 0px;
+  padding:5px 0px;
+  margin-bottom: 0px;
+
+}
+#myNavbar a{
+  color:white;
+}
+ .nv a {
+   color:white;
+   position: absolute;
+   font-weight: bold;
+   padding: 10px 12px;
+ }
+
+ .navbar-right{
+   /*margin-right: -31px;*/
+   letter-spacing: 0.6px;
+ }
+
+ .round{
+   border-radius: 10px;
+   margin-right: 19px;
+   padding:5px 22px;
+
+ }
+
+
+.textonimage {
+    position: relative;
+    text-align: center;
+    color: white;
+    /*margin-top:64px;*/
+    height: 600px;
+}
+
+.groupImg
+{
+  width:100%;
+  height: 100%;
+  /*margin-top: -64px;*/
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+  }
+
+
+  #button
+  {
+    padding: 9px 20px;
+    margin-top:77px;
+    border-radius: 8px;
+  }
+
+  .helps
+  {
+    margin-top:45px;
+    text-align: center;
+  }
+  .helps h2
+  {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .helps h1
+  {
+    font-weight: bold;
+    line-height: 1.3;
+  }
+
+  .helps p{
+     letter-spacing: 1px;
+     line-height: 1.8;
+  }
+
+
+  .helps img{
+    width:50px;
+    height:50px;
+  }
+
+.helps button{
+  border-radius: 8px;
+  width:100%;
+  border: 0px;
+  margin-left: 30px;
+}
+
+.helps #button{
+  margin-top: 45px;
+  padding: 10px 20px;
+
+
+}
+
+.helps .hc{
+  text-align: left;
+  padding-left: 50px;
+}
+
+
+
+
+.tasks{
+  margin-top:70px;
+  color:white;
+  width: 100%;
+  background-image:url("assets/Fill 165.png") ;
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-top: 15px;
+}
+
+.rm{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.tasks p
+{
+  text-align: center;
+  margin-top:30px;
+  margin-bottom: 35px;
+  font-weight:lighter;
+  letter-spacing: 1.5px;
+}
+
+.tasks .cl{
+  padding: 4px 20px;
+  margin-bottom: 30px;
+}
+.tasks .row{
+  margin-top:50px;
+  padding-left: 25px;
+}
+
+
+
+.tasks li{
+  list-style-type: none;
+  font-weight: bold;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.arrow
+{
+  border-radius: 12px;
+  width:15px;
+  background-color: white;
+  color: #2099f0;
+  margin-right: 10px;
+  padding: 3px 15px 2px 5px;
+}
+
+
+.testimonials-section{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.testimonials-section h2{
+  margin-bottom: 71px;
+  margin-top: 0;
+}
+
+
+.testimonials-section .t1{
+  margin-bottom: 35px;
+}
+
+
+.circle{
+  border:2px solid #2099f0;
+  width: 80px;
+  height:80px;
+  border-radius: 55px;
+  margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+}
+
+
+
+.bold
+{
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+.testimonials #para{
+  line-height: 25px;
+  height: 100px;
+  width:319.750px;
+}
+
+.partners
+{
+  margin-top:85px;
+  width:100%;
+  text-align: center;
+
+}
+.partners h1{
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.partners img{
+  width: 94px;
+  height:88px;
+  padding: 5px 10px;
+  margin-bottom: 19px;
+}
+
+.footer{
+  margin-top:18px;
+  width: 100%;
+  height: 60px;
+  color: white;
+  padding: 21px 27px;
+}
+
+.fLeft{
+  float: left;
+  color: white;
+  padding:0px 6px;
+
+}
+
+.fRight{
+  float: right;
+  color: white;
+
+}
+
+/*Mobile*/
+@media only screen and (max-width:800px){
+
+  .helps .hc{
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  .helps button{
+    margin-left: 0px;
+  }
+
+  .tasks .row{
+
+    padding-left:42px;
+  }
+
+  .tasks #head{
+    font-size: 24px;
+  }
+
+  .tasks ul{
+    padding-left: 0px;
+  }
+  .tasks li{
+    font-size: 16px;
+    text-align: left !important;
+
+  }
+
+  .tasks{
+    background-image: none;
+  }
+
+
+
+  .footer{
+    font-size:10px;
+  }
+
+
+}
+
+
+
+/*Tablet*/
+@media only screen and (min-width: 768px){
+  .testimonials-section, .helps .hc{
+    text-align: left;
+  }
+
+  .tasks .row{
+    font-size: 16px;
+  }
+
+  .helps button{
+    margin-left: 30px;
+  }
+}
